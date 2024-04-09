@@ -1,13 +1,5 @@
 package main
 
-import "fmt"
-
-func main() {
-
-	fmt.Println(gcdOfStrings("A", "AA"))
-
-}
-
 func gcdOfStrings(str1 string, str2 string) string {
 	len1 := len(str1)
 	len2 := len(str2)
